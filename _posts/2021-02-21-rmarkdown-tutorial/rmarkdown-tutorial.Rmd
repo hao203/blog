@@ -86,12 +86,14 @@ Rmarkdown学术写作课程（医咖会）
 - html
 
 ### 第三章 实战学术写作
-1.实战
-- 写一个完整的manuscript
-- 关于rticles包
-- 写一个post（postdown包）
-- 写一本书，以[R Markdown Cookbook](https://github.com/yihui/rmarkdown-cookbook)这本开元书籍为例
-- 写一个学术简历（vitae包）
+1. 实战
+ - 写一个完整的manuscript
+ - 关于rticles包
+ - 写一个post（postdown包）
+ - 写一本书，以[R Markdown Cookbook](https://github.com/yihui/rmarkdown-cookbook)这本开元书籍为例
+ 
+ - 写一个学术简历（vitae包）
+ 
 2. 结语
 - 我的一些理念
 - 对R的未来畅想
