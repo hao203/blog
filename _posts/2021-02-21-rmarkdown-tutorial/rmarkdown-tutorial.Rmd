@@ -1,5 +1,5 @@
 ---
-title: "rmarkdown tutorial"
+title: "Rmarkdown tutorial"
 description: |
   A short description of the rmarkdwon tutorial.
 author:
@@ -18,16 +18,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Rmarkdown学术写作
 
-### 介绍
+## 介绍
 Rmarkdown学术写作课程（医咖会）
 
-### 适用人群
+## 适用人群
 科研工作者、研究生、数据科学从业者等
 
 
-### 课程大纲
+## 课程大纲
 
-#### 第一章 准备工作与理论
+### 第一章 准备工作与理论
 
 1.  Rmarkdown是什么（生态、作者、历史），可以做什么
 - 写论文
@@ -54,7 +54,7 @@ Rmarkdown学术写作课程（医咖会）
 5.  Rmarkdown的结构及工作原理
 - Rmd文件结构（yaml、text（markdown、latex）、chunk option、code chunk）
 
-#### 第二章 基础操作与参数讲解
+### 第二章 基础操作与参数讲解
 
 1.  yaml头部及参数
 - yaml this包快速设置
@@ -85,7 +85,7 @@ Rmarkdown学术写作课程（医咖会）
 - word
 - html
 
-#### 第三章 实战学术写作
+### 第三章 实战学术写作
 1.实战
 - 写一个完整的manuscript
 - 关于rticles包
@@ -97,7 +97,7 @@ Rmarkdown学术写作课程（医咖会）
 - 对R的未来畅想
 - 致谢
 
-### 关于作者
+## 关于作者
 湖南中医药大学 梁昊 医学博士，讲师，主治医师
 
 

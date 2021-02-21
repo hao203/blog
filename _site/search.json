@@ -3,17 +3,17 @@
     {
       "path": "about.html",
       "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "description": "这是梁昊老师的博客",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-02-14T10:57:05+08:00"
+      "contents": "\n这个是梁昊老师的个人博客，用于我自己教程发布及个人学术的一些介绍和展示\n\n\n\n",
+      "last_modified": "2021-02-21T16:30:58+08:00"
     },
     {
       "path": "index.html",
       "title": "liang Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-02-14T10:57:05+08:00"
+      "last_modified": "2021-02-21T16:29:25+08:00"
     }
   ],
   "collections": ["posts/posts.json"]

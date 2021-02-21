@@ -1,9 +1,10 @@
 ---
 title: "About this blog"
 description: |
-  Some additional details about the blog
+  这是梁昊老师的博客
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+这个是梁昊老师的个人博客，用于我自己教程发布及个人学术的一些介绍和展示
