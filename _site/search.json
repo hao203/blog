@@ -5,15 +5,15 @@
       "title": "About this blog",
       "description": "这是梁昊老师的博客",
       "author": [],
-      "contents": "\r\n这个是梁昊老师的个人博客，用于我自己教程发布及个人学术的一些介绍和展示\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-18T13:14:50+08:00"
+      "contents": "\n这个是梁昊老师的个人博客，用于我自己教程发布及个人学术的一些介绍和展示\n\n\n\n",
+      "last_modified": "2021-03-18T15:24:24+08:00"
     },
     {
       "path": "index.html",
       "title": "liang Blog",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-18T13:14:52+08:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-03-18T15:24:24+08:00"
     }
   ],
   "collections": ["posts/posts.json"]
