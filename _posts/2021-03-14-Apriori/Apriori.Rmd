@@ -9,12 +9,13 @@ date: 03-14-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: yes
+    
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
-
 
 # 关联规则理论
 
@@ -203,7 +204,7 @@ Given d items, there are $2^d$ possible candidate itemsets
 如果有d件商品，那么有$2^d - 1$种排列组合。
 
 对象之间任意组合构成的项集,数可能非常大。例如，在图中, 4个不同的对象(项)，就可以构成15种组合。而耐于含有N个对象
-的数据集，若item种类稍大最终筛选的itemset就是天文数字，指数增长。所以我们迫切需要一种算法，能减少计算量。
+的数据集，若item种类稍大最终筛选的itemset就是`天文数字`，指数增长。所以我们迫切需要一种算法，能减少计算量。
 
 ## 我们今天的主角———Apriori算法
 
@@ -272,6 +273,10 @@ https://www.youtube.com/watch?v=0CB0Upqeh-o
 
 https://www.bilibili.com/video/BV1Kt4y1X7dZ
 
+https://rpubs.com/Argaadya/network-analysis-for-association-rules
+
+https://medium.com/@yolandawiyono98/market-basket-analysis-with-r-8001417a8e29
+
 # Code
 
 ## read data and library the packages
@@ -281,6 +286,7 @@ library(tidyverse)
 library(arules)
 library(arulesViz)
 library(kableExtra)
+library(rmarkdown)
 herbs <- read_csv('test.csv')
 herbs[] <- lapply(herbs, as.logical)
 herbs <- as(herbs,"transactions")
@@ -288,22 +294,21 @@ herbs <- as(herbs,"transactions")
 
 ## 寻找频繁项集（Find all frequent itemsets）
 
-```{r results = 'hide'}
-rules <- apriori (herbs,  parameter = list(maxlen=3, supp =0.1, conf = 0.5)
-) 
+```{r results='hide'}
+rules <- apriori (herbs,  parameter = list(maxlen=3, supp =0.1, conf = 0.5))
 rules_df <- inspect(rules)
 
-
 ```
-
-## 输出表格
 
 ```{r echo=FALSE}
-head(rules_df) %>% 
- kbl() %>% 
- kable_styling(latex_options = "striped")
-
+rules_df %>% 
+ paged_table()
 ```
+
+```{r}
+summary(rules)
+```
+
 
 ## 按要求排序
 
@@ -315,10 +320,10 @@ rules_s <- sort(rules, by="supp", decreasing=TRUE) %>%
 
 ```
 
-```{r}
-head(rules_s, 10) %>% 
-  kbl() %>% 
-  kable_styling(latex_options = "striped")
+```{r echo=FALSE}
+rules_s %>% 
+ paged_table()
+
 ```
 
 ---
@@ -326,17 +331,16 @@ head(rules_s, 10) %>%
 ### 按置信度
 
 ```{r results='hide'}
-rules_c <- sort(rules, by="conf", decreasing=TRUE) %>% 
- inspect() 
+rules_c <- sort(rules, by="conf", decreasing=TRUE)  %>% 
+ inspect()  
 
 ```
 
-```{r}
- head(rules_c, 10) %>% 
-  kbl() %>% 
-  kable_styling(latex_options = "striped")
-```
+```{r echo=FALSE}
+rules_c %>% 
+ paged_table()
 
+```
 
 ## 可视化
 
@@ -359,3 +363,4 @@ rules_s <- sort(rules, by="supp", decreasing=TRUE) %>%
 head(.,10) %>% 
 plot(.,method="graph")
 ```
+
