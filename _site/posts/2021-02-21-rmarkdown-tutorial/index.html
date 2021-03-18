@@ -111,7 +111,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Rmarkdown tutorial"]},{"type":"character","attributes":{},"value":["A short description of the rmarkdwon tutorial."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Hao Liang"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]}]}]},{"type":"character","attributes":{},"value":["02-21-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","categories"]}},"value":[{"type":"character","attributes":{},"value":["Rmarkdown tutorial"]},{"type":"character","attributes":{},"value":["A short description of the rmarkdwon tutorial."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Hao Liang"]},{"type":"character","attributes":{},"value":["https://coogle.ink"]}]}]},{"type":"character","attributes":{},"value":["02-21-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["R markdown"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2061,7 +2061,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Rmarkdown tutorial","description":"A short description of the rmarkdwon tutorial.","authors":[{"author":"Hao Liang","authorURL":"https://example.com/norajones","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-21T00:00:00.000+08:00","citationText":"Liang, 2021"}
+{"title":"Rmarkdown tutorial","description":"A short description of the rmarkdwon tutorial.","authors":[{"author":"Hao Liang","authorURL":"https://coogle.ink","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-21T00:00:00.000+08:00","citationText":"Liang, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2086,17 +2086,39 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="d-title">
 <h1>Rmarkdown tutorial</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+  <a href="../../index.html#category:R_markdown" class="dt-tag">R markdown</a>
+</div>
 <!--/radix_placeholder_categories-->
 <p><p>A short description of the rmarkdwon tutorial.</p></p>
 </div>
 
 <div class="d-byline">
-  Hao Liang <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> 
+  Hao Liang <a href="https://coogle.ink" class="uri">https://coogle.ink</a> 
   
 <br/>02-21-2021
 </div>
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#rmarkdown学术写作">Rmarkdown学术写作</a>
+<ul>
+<li><a href="#介绍">介绍</a></li>
+<li><a href="#适用人群">适用人群</a></li>
+<li><a href="#课程大纲">课程大纲</a>
+<ul>
+<li><a href="#第一章-准备工作与理论">第一章 准备工作与理论</a></li>
+<li><a href="#第二章-基础操作与参数讲解">第二章 基础操作与参数讲解</a></li>
+<li><a href="#第三章-实战学术写作">第三章 实战学术写作</a></li>
+</ul></li>
+<li><a href="#关于作者">关于作者</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
 <h1 id="rmarkdown学术写作">Rmarkdown学术写作</h1>
 <h2 id="介绍">介绍</h2>
 <p>Rmarkdown学术写作课程（医咖会）</p>
@@ -2120,7 +2142,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </ol>
 <ul>
 <li>all in one (即将写作和统计分析、作图融合在一起，一个程序解决所有问题)</li>
-<li>兼容markdown语法、可以运行除python以外的代码（python、javascript等）</li>
+<li>兼容markdown语法、可以运行R以外的代码（python、javascript等）</li>
 <li>可以将文档转化成各种常见格式，便于发布和整理</li>
 <li>可以和git融合，方便版本控制，天生开源特性</li>
 <li>丰富的模板和自动化操作</li>

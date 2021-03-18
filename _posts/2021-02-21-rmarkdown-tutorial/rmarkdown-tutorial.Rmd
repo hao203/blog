@@ -4,13 +4,15 @@ description: |
   A short description of the rmarkdwon tutorial.
 author:
   - name: Hao Liang
-    url: https://github.com/hao203/blog
+    url: https://coogle.ink
 date: 02-21-2021
 output:
   distill::distill_article:
     self_contained: false
+    toc: yes
 categories:
   - R markdown
+  
 ---
 
 
@@ -88,6 +90,7 @@ Rmarkdown学术写作课程（医咖会）
 - html
 
 ### 第三章 实战学术写作
+
 1. 实战
  - 写一个完整的manuscript
  - 关于rticles包
@@ -97,11 +100,13 @@ Rmarkdown学术写作课程（医咖会）
  - 写一个学术简历（vitae包）
  
 2. 结语
+
 - 我的一些理念
 - 对R的未来畅想
 - 致谢
 
 ## 关于作者
+
 湖南中医药大学 梁昊 医学博士，讲师，主治医师
 
 
