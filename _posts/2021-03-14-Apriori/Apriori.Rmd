@@ -4,7 +4,7 @@ description: |
   智能医学社公开课
 author:
   - name: Hao Liang
-    url: https://coogle.ink
+    url: https://github.com/hao203/blog
 date: 03-14-2021
 output:
   distill::distill_article:
@@ -19,6 +19,8 @@ categories:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
+
+源码地址：https://github.com/hao203/blog/tree/master/_posts/2021-03-14-Apriori
 
 # 关联规则理论
 
