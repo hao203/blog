@@ -1,11 +1,11 @@
 ---
-title: "Welcome to liang Blog"
+title: "Curriculum Vitae - Hao Liang (梁昊)"
 description: |
   Welcome to our new blog, liang Blog. We hope you enjoy 
   reading what we have to say!
 author:
   - name: Hao Liang 
-    url: https://coogle.ink/
+    url: https://medai.vip/
     affiliation: Hunan University of Chinese Medicine
     affiliation_url: https://www.hnucm.edu.cn
 date: 02-14-2021
@@ -22,5 +22,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-
+这个是梁昊老师的个人博客，用于我自己教程发布及个人学术的一些介绍和展示
 
