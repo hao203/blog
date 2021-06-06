@@ -24,33 +24,35 @@
 	body {
 		font-size: 12px;
 		font-family: "微软雅黑";
-		background: url(../img/bg.jpg) no-repeat;
+		
 		width: 100%;
-		height: 100vh;
 		background-size: cover;
 	}
 	
 	#top {
 		width: 100%;
-		height: 60px;
+		height: 40px;
 		background: rgba(15, 25, 50, 0.3);
 		color: #fff;
-		line-height: 60px;
+		line-height: 30px;
 		text-align: center;
-		font-size: 30px;
+		font-size: 24px;
 	}
 
 	#box {
-		width: 800px;
+		width: 100%;
 		height: 600px;
 		background: rgba(255, 255, 255, .5);
-		margin: 100px auto 0;
+		margin:auto
+		
 	}
+
 
 	.b-head {
 		width: 100%;
 		height: 60px;
-		background-color: #4CAF50;
+		background-color: #a89b27;
+		margin: 20px auto		
 	}
 	
 	.h-img {
@@ -62,6 +64,7 @@
 	.h_span {
 		color: #fff;
 		font-size: 18px;
+		text-align: center;
 		line-height: 60px;
 		float: left;
 		user-select: none;
@@ -70,9 +73,9 @@
 
 	.b-body {
 		width: 100%;
-		height: 420px;
+		height: 400px;
 		overflow: auto;
-		margin: 20px 0;
+		
 	}
 	
 	.rotWord,.mWord{
@@ -83,9 +86,9 @@
 	
 	.rotWord span {
 		background: url(../img/rot.png);
-		height: 40px;
-		width: 40px;
-		margin-left: 20px;
+		height: 50px;
+		width: 50px;
+		margin-left: 10px;
 		float: left;
 	}
 	
@@ -98,7 +101,7 @@
 		margin-left: 10px;
 		padding: 10px;
 		line-height: 24px;
-		background: rgba(0, 0, 255, .5);
+		background: rgba(107, 4, 4, 0.849);
 		border-radius: 6px;
 		max-width: 220px;
 	}
@@ -126,9 +129,9 @@
 	}
 	
 	.b-footer {
-		width: 760px;
+		width: 100%;
 		height: 60px;
-		margin: 0 20px;
+		margin: auto;
 		font-size: 16px;
 		color: #666;
 	}
@@ -137,7 +140,7 @@
 		padding-left: 20px;
 		outline: none;
 		overflow: hidden;
-		width: 620px;
+		width: 80%;
 		height: 60px;
 		float: left;
 		background: rgba(0, 0, 0, .1);
@@ -147,7 +150,7 @@
 	}
 	
 	#btn {
-		width: 100px;
+		width: 15%;
 		height: 60px;
 		background: #666666;
 		float: right;
