@@ -1,0 +1,26 @@
+---
+title: "食物/药物与舌象数据库-tongue_eating"
+description: |
+  一个用于展示食物/药物对舌象影响的数据库.
+author:
+  - name: Hao Liang
+    url: https://github.com/hao203/blog
+date: 2022-05-22
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(DT)
+```
+
+DT包
+```{r}
+datatable(iris)
+```
+
+
+

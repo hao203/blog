@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-05-22-tongueeating/",
+    "title": "食物/药物与舌象数据库-tongue_eating",
+    "description": "一个用于展示食物/药物对舌象影响的数据库.",
+    "author": [
+      {
+        "name": "Hao Liang",
+        "url": "https://github.com/hao203/blog"
+      }
+    ],
+    "date": "2022-05-22",
+    "categories": [],
+    "contents": "\r\nDT包\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-22T16:13:46+08:00",
+    "input_file": "tongueeating.knit.md"
+  },
+  {
     "path": "posts/2021-03-14-Apriori/",
     "title": "关联规则在名医经验数据挖掘中的应用",
     "description": "智能医学社公开课",
