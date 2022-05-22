@@ -43,6 +43,9 @@ Updating...
 
 ## PUBLICATIONS
 
+  - Peiyu Zhang, Liu Yang, Qingwen Xu, Yidi Zeng, Yipin Yu, Qinghua Peng, Hao Liang*. Associations between bone mineral density and coronary artery calcification: a systematic review and meta-analysis[J]. Therapeutic advances in chronic disease, 2022, 13: 20406223221086998. DOI: 10.1177/20406223221086998
+  - Yipin Yu, Duoting Tan, Can Liao, Pei Yang, Zhixi Hu, Hao Liang*. Neutrophil‑to‑lymphocyte ratio as a prognostic predictor for patients with cancer treated with stereotactic body radiation therapy: A meta‑analysis[J]. Molecular and Clinical Oncology, 2022, 16(5): 1-10.
+  - Jiaze Wu, Hao Liang*, Changsong Ding, Xindi Huang, Jianhua Huang, Qinghua Peng, "Improving the Accuracy in Classification of Blood Pressure from Photoplethysmography Using Continuous Wavelet Transform and Deep Learning", International Journal of Hypertension, vol. 2021, Article ID 9938584, 9 pages, 2021. https://doi.org/10.1155/2021/9938584.
   - Yang Cheng-Long, Zeng Yi-Di , Hu Zhi-Xi, Hao Liang (correspondence).PCSK9 promotes the secretion of pro-inflammatory cytokines by macrophages to aggravate H/R-induced cardiomyocyte injury via activating NF-κB signalling. General Physiology and Biophysics, 2020, 39(2), 123–134. doi:10.4149/gpb_2019057. 
   - Zhang Yonghui, He Bing, Wang Haijiao, Shi Jianwei, Liang Hao (correspondence). Associations between Bone Mineral Density and Coronary Artery Disease: A Meta-Analysis of Cross-sectional Studies. Archives of Osteoporosis,  2020, 15(1): 1-8. doi:10.1007/s11657-020-0691-1.
   - Hao Liang, Lan Wu, Yingchen Li, Yidi Zeng, Zhixi Hu, Xinchun Li, Xiang Sun, Qiuyan Zhang, Xiaoqing Zhou*.  Electrocardiogram criteria of limb leads predicting right coronary artery as culprit artery in inferior wall myocardial infarction: A meta-analysis[J]. Medicine, 2018, 97(24): e10889. 
