@@ -14,13 +14,11 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-library(DT)
+
 ```
 
-DT包
-```{r}
-datatable(iris)
-```
-
+测试中
+详见
+https://medai.vip/tongue
 
 
